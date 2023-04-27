@@ -72,6 +72,10 @@ body {
     color: var(--secondary-text-color);
     
 }
+.contact-information:hover,
+.contact-information:focus {
+    color: var(--accent-color);
+}
 /* hero */
 .hero { 
     background-color: var(--primary-text-color)
@@ -145,4 +149,55 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+ }
+ /* our team */
+ .our-team {
+    background-color: #F4F4FD;
+ }
+
+ .our-team-main-title {
+    font-family: var(--main-font-family);
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    ext-transform: capitalize;
+ }
+
+ .our-team-title {
+    font-family: var(--main-font-family);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+ }
+
+ .our-team-suptitle {
+    font-family: var(--main-font-family);
+    color: var(--secondary-text-color);
+    font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+ }
+ /* footer */
+ .footer {
+    background-color: var(--primary-text-color);
+ }
+
+ .logo-footer {
+    color: #F4F4FD;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+ }
+ .footer-suptitle {
+    font-family: var(--main-font-family);
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
  }
