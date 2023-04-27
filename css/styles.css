@@ -6,43 +6,36 @@
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
     --accent-color: #404BBF;
+    --secondary-accent-color: #4D5AE5;
 }
 
 body {
     color: var(--primary-text-color);
     font-family: var(--main-font-family) 
-
 }
 
 .list {
     list-style: none;
+
 }
 
 .link {
     text-decoration: none;
-    color: var(--primary-text-color);
-}
-
-.button {
-    font-family: inherit;
-    cursor: pointer;
-}
-
-.logo-link {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    font-family: var(--secondary-font-family);
-    text-decoration: none;
-}
-.logo-link-accent {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
     
+}
+
+.list:hover,
+.list:focus {
+    color: var(--accent-color);
+}
+
+/* header */
+.menu-link {
+    font-family: var(--secondary-font-family);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .menu-link:hover,
@@ -50,9 +43,30 @@ body {
     color: var(--accent-color);
 }
 
-.list:hover,
-.list:focus {
-    color: var(--accent-color);
+.logo-link {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    font-family: var(--secondary-font-family);
+    color: var(--primary-text-color);
+
+
+}
+
+.logo-link-accent {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+
+}
+
+.contact-information {
+    font-family: var(--main-font-family);
+    color: var(--secondary-text-color);
+    
 }
 /* hero */
 .hero { 
@@ -67,6 +81,29 @@ body {
     letter-spacing: 0.02em;
  }
 
+.button {
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
+}
+
  .modal-open-btn {
-    
+   color: #FFFFFF; 
+   background-color: var(--secondary-accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
  }
+ .modal-open-btn:hover,
+ .modal-open-btn:focus {
+    background-color: #404BBF;
+ }
+
+ /* feauters */
