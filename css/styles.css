@@ -11,7 +11,7 @@
 
 body {
     color: var(--primary-text-color);
-    font-family: var(--main-font-family) 
+    font-family: var(--main-font-family);
 }
 
 .list {
@@ -30,6 +30,10 @@ body {
 }
 
 /* header */
+.page-header {
+    background-color: #FFFFFF;
+}
+
 .menu-link {
     font-family: var(--secondary-font-family);
     color: var(--primary-text-color);
@@ -107,3 +111,38 @@ body {
  }
 
  /* feauters */
+.feauters {
+    background-color: #FFFFFF;
+}
+ .feauters-title {
+    font-family: var(--main-font-family);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+ }
+
+ .feauters-suptitle {
+    font-family: var(--main-font-family);
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+ }
+ /* activity */
+ .activity {
+    background-color: #E7E9FC;
+ }
+
+ .activity-title {
+    font-family: var(--main-font-family);
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+ }
