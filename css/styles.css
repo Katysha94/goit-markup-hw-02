@@ -5,10 +5,13 @@
         sans-serif;
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
+    --accent-color: #404BBF;
 }
 
-.body {
-    font-family: var(--main-font-family)
+body {
+    color: var(--primary-text-color);
+    font-family: var(--main-font-family) 
+
 }
 
 .list {
@@ -17,9 +20,53 @@
 
 .link {
     text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 .button {
     font-family: inherit;
     cursor: pointer;
 }
+
+.logo-link {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    font-family: var(--secondary-font-family);
+    text-decoration: none;
+}
+.logo-link-accent {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.list:hover,
+.list:focus {
+    color: var(--accent-color);
+}
+/* hero */
+.hero { 
+    background-color: var(--primary-text-color)
+}
+ .main-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    text-align: center;
+    letter-spacing: 0.02em;
+ }
+
+ .modal-open-btn {
+    
+ }
