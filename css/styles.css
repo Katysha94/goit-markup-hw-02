@@ -8,13 +8,15 @@
     --accent-color: #404BBF;
     --secondary-accent-color: #4D5AE5;
     --logo-footer-second-color:#F4F4FD;
+    --main-background-color: #FFFFFF;
 }
 
 /* index.html */
 
 body {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
     font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
 }
 
 .list {
@@ -43,6 +45,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .menu-link:hover,
@@ -53,9 +56,11 @@ body {
 .logo-link {
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     font-family: var(--secondary-font-family);
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 
 
 }
@@ -63,7 +68,7 @@ body {
 .logo-link-accent {
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-accent-color)
@@ -72,6 +77,11 @@ body {
 .contact-information {
     font-family: var(--main-font-family);
     color: var(--secondary-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     
 }
 .contact-information:hover,
@@ -163,7 +173,7 @@ body {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    ext-transform: capitalize;
+    text-transform: capitalize;
  }
 
 .our-team-item {
@@ -185,9 +195,11 @@ body {
     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
+    letter-spacing: 0.02em;
  }
  /* footer */
  .footer {
+    font-family: var(--secondary-font-family);
     background-color: var(--primary-text-color);
  }
 
@@ -195,8 +207,14 @@ body {
     color: var(--logo-footer-second-color);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
  }
+ .logo-footer-link-accent{
+color:var(--secondary-accent-color) ;
+ }
+
  .footer-suptitle {
     font-family: var(--main-font-family);
     color: var(--logo-footer-second-color);
@@ -208,6 +226,9 @@ body {
 /* portfolio.html */
 
 /* navigation */
+.navigation-list{
+    list-style: none;
+}
 .navigation-button{
     background-color: #E7E9FC;
     font-family: var(--main-font-family);
