@@ -60,9 +60,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: var(--secondary-font-family);
-    color: var(--secondary-text-color);
-
-
+    /*color: var(--secondary-accent-color);*/
 }
 
 .logo-link-accent {
@@ -71,17 +69,23 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--secondary-accent-color)
+    color: var(--secondary-accent-color);
+}
+.logo-link-second-accent{
+    color:var(--primary-text-color) ;
 }
 
+/* .contact { 
+    font-style: normal;
+}*/
 .contact-information {
     font-family: var(--main-font-family);
     color: var(--secondary-text-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
     
 }
 .contact-information:hover,
@@ -96,7 +100,7 @@ body {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
  }
@@ -203,6 +207,13 @@ body {
     background-color: var(--primary-text-color);
  }
 
+ .logo-footer-accent { 
+     color: var(--secondary-accent-color);
+ }
+.logo-footer-second-accent {
+    color: var(--logo-footer-second-color);
+}
+
  .logo-footer {
     color: var(--logo-footer-second-color);
     font-weight: 800;
@@ -211,9 +222,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
  }
- .logo-footer-link-accent{
-color:var(--secondary-accent-color) ;
- }
+
 
  .footer-suptitle {
     font-family: var(--main-font-family);
@@ -240,6 +249,10 @@ color:var(--secondary-accent-color) ;
     color: #FFFFFF;
 }
 /* work examples */
+.work-examples-list{
+    list-style: none;
+}
+
 .work-examples-title {
     font-family: var(--main-font-family);
     color: var(--primary-text-color);
