@@ -60,7 +60,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: var(--secondary-font-family);
-    color: var(--primary-text-color);
+    color: var(--secondary-accent-color);
 }
 
 .logo-link-accent {
@@ -69,7 +69,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--secondary-accent-color);
+    color: var(--primary-text-color);
 }
 
 .contact { 
@@ -204,7 +204,7 @@ body {
 
 
  .logo-footer {
-    color: var(--logo-footer-second-color);
+    color: var(--secondary-accent-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -213,7 +213,7 @@ body {
  }
 
  .logo-footer-accent {
-     color: var(--secondary-accent-color);
+     color: var(--logo-footer-second-color);
  }
 
  .footer-suptitle {
